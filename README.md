@@ -4,7 +4,6 @@
 ![.NET](https://img.shields.io/badge/.NET-7.0-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![Build](https://img.shields.io/badge/build-passing-brightgreen)
-\
 
 A backend API for a fintech wallet system built with **ASP.NET Core** and **SQL Server**.
 The system allows users to create wallets, transfer funds, and manage transactions securely.
