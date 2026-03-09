@@ -170,4 +170,5 @@ This project is licensed under the **MIT License**.
 Senior Software Engineer
 
 LinkedIn: https://linkedin.com/in/muisoft
+
 Email: [olaprog2013@gmail.com](mailto:olaprog2013@gmail.com)
