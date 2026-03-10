@@ -64,7 +64,7 @@ namespace FintechWallet.Services
         public async Task<bool> WithdrawAsync(Guid walletId, Guid userId, WithdrawDto dto)
         {
             var wallet = await _walletRepository.GetByIdAsync(walletId);
-            if (wallet == null || wallet.Balance < dto.Amount) return false;
+            if (wallet == null || wallet.UserId != userId || wallet.Balance < dto.Amount) return false;
 
             wallet.Balance -= dto.Amount;
 
