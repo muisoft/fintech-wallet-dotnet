@@ -66,7 +66,7 @@ namespace FintechWallet.Controllers
                 WalletId = request.WalletId,
                 Amount = request.Amount,
                 PaymentType = "Paystack",
-                PaymentRef = request.Reference
+                PaymentRef = request.Reference ?? Guid.NewGuid().ToString()
             };
 
             var result = await pService.CreatePaymentAsync(payment, _paymentLogRepository);
